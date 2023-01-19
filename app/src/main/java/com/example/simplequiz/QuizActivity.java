@@ -35,18 +35,14 @@ public class QuizActivity extends AppCompatActivity {
             "Asam amino",
             "Kalsium dan vitamin D",
     };
-
     int enu         = 0;
     int len         = question.length;
     int point       = 0;
-
     TextView txtQuestionPre;
     RadioGroup radiosAnswerPre;
     Button butSubmitAnswerPre;
     Intent intent;
-
     RadioButton selectedAnswer;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
